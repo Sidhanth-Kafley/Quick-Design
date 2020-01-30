@@ -1,0 +1,240 @@
+/*==============================  lab 9  ============================*/
+/***************************** main layout section  ******************/
+body{
+    font:  Arial,Helvetica,sans-serif;
+    margin: auto;
+    width: 90%;
+    background-color: #faf3e6;
+}
+/***************************** nav section  *************************/
+nav{
+
+    padding: 0.3em;
+    top:0;
+    width:100%;
+    text-align:center;
+   
+}
+nav a:link{
+
+    text-decoration:none;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+nav ol li{
+    font-size:18px;
+    display: inline-block;
+    list-style-type: none;
+    margin-right:5px;
+    
+}
+.activePage{
+   
+}
+/***************************** footer section  **********************/
+footer{
+    clear: both;
+    text-align:center;
+    border-top-color: black;
+    border-top:1px;
+}
+
+/***************************** form section  ************************/  
+#form{
+   background-color: #ccccff; 
+}
+
+
+fieldset{
+    border: 2px solid #00498e;
+    clear: both;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+label {
+    color: #005cb3;
+    display: block;
+    font-weight: bold;
+    padding-right: 1em;
+}
+
+input, textarea, select{
+    box-sizing: border-box;
+    border: 2px solid #C2C2C2;
+    box-shadow: 2px 2px 4px #EBEBEB; 
+    border-radius: 3px;
+    padding: 1em;
+}
+
+input:focus, textarea:focus, select:focus{
+    border: 1px solid #0C0;
+}     
+
+input[type=submit]{
+    background: #005cb3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #dadada;
+    color: #fff;
+    width: 100%;
+}
+
+.buttons legend{
+    display: none;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.form-heading {
+    border-bottom: 2px solid #ddd;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 1.75em;
+    padding-bottom: 0.4em;
+}
+
+.text-field{
+    width: 100%;
+}     
+
+/* style the errors in the form so they are visible */       
+.mistake {
+    color: #fff;
+    background-color:red;
+    border: thin solid #000;
+}     
+
+#errors ol li{
+    color: #ff5555;
+}
+
+/*==============================  general section  ============================*/
+
+.medium{
+    width: 50%;
+    text-align: center;
+    padding: 1em;
+    margin-left: 23%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.roundedCornersSmall{
+    border-radius: 0.5em;
+}
+li{
+    padding:0.4em;
+    margin-right: 5px;
+}
+img{
+    max-width: 100%;
+}
+/*==============================Technical Documentation Page============================*/
+.block{background-color:rgba(0,0,0,.65);
+  color:white;
+  width:75%;
+  margin: auto;
+  border-radius:20px;
+  font-size:1.5em;
+  padding:3%;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.block2{background-color:white;
+  color:black;
+  width:75%;
+  margin: auto;
+  border-radius:20px;
+  font-size:1.5em;
+  padding:3%;
+  margin-bottom: 40px;
+}
+.block3{background-color:#B2B8BA;
+  margin-top: 60px;
+  height: 650px;
+  margin: auto;
+  overflow:scroll;
+  border-radius:20px;
+  font-size:1.5em;
+  padding:3%;
+  margin-bottom: 40px;
+  
+    
+}
+
+hr{
+    background-color:#272625;
+    width: 5px;
+}
+#html-page{
+    text-align: center;
+}
+button{
+    font-size:16px;
+    width:200px;
+    height:50px;
+    background-color: cyan;
+    margin-right:20px;
+    margin-bottom:30px;
+}
+.block4{
+  width:75%;
+  margin: auto;
+  border-radius:20px;
+  font-size:1.5em;
+  padding:3%;
+  margin-bottom: 40px;
+ margin-top:20px;
+  text-align: center;   
+  
+}
+.main{
+    
+    background-color:#faf3e6;
+}
+h2{
+    text-align: center;
+}
+
+
+.medium{
+    width: 60%;
+    text-align: center;
+    padding: 1em;
+    margin-left: 23%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+hr{
+    background-color:black;
+    width:1000px;
+}
+figcaption{
+    font-size:6px;
+}
+#imp{
+    font-size:12pt;
+}
+#myBtn {
+    display:block;
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: coral; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+
+#myBtn:hover {
+    background-color: #555; 
+}
